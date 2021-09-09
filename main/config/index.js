@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-09-09 22:27:37
+ * @LastEditTime: 2021-09-09 23:04:24
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /micro-web/main/config/index.js
+ */
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
@@ -14,7 +22,7 @@ module.exports = {
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 4000, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,

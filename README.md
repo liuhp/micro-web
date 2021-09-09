@@ -4,7 +4,9 @@
 
 工程简介：
 main -- portal主应用
+
 subapp1 -- 子应用1
+
 service -- 服务端
 
 #### 启动主应用

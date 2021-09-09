@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <p>{{showMessage}}</p>
     <h2>Essential Links</h2>
     <ul>
       <li>
@@ -84,13 +85,26 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to subapp1',
+      showMessage: '',
     }
-  }
+  },
+  mounted() {
+    this.getInfo();
+  },
+  methods: {
+    async getInfo() {
+      const res = await axios.get('http://localhost:3000/subapp1/getInfo');
+      console.log('res', res);
+      this.showMessage = res.data;
+    },
+  },
 }
 </script>
 
