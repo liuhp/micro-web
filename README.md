@@ -14,9 +14,9 @@ service -- 服务端
 cd main # 进入到主项目
 npm start # 启动项目
 ```
-#### 启动子应用
+#### 启动所有应用和服务端
 ```shell script
-# micro_web_test 目录下
+# micro_web 目录下
 npm start 
 ```
 
