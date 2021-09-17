@@ -11,20 +11,21 @@
 微前端
 
 工程简介：
+
 portal -- portal主应用
 
 subapp1 -- 子应用1
 
 service -- 服务端
 
-#### 启动主应用
+#### 单独启动某个应用
 ```shell script
-cd portal # 进入到主项目
+cd portal # 进入到要启动应用的工程根目录下
 npm start # 启动项目
 ```
-#### 启动所有应用和服务端
+#### 一条命令启动所有应用和及服务端
 ```shell script
-# micro_web 目录下
+# micro_web根目录下执行
 npm start 
 ```
 
