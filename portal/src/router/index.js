@@ -10,13 +10,8 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
   {
-    path: "/",
-    name: "app",
-    component: () => import('../App.vue'),
-  },
-  {
     path: "/subapp1",
-    name: "subapp1",
+    name: "app",
     component: () => import('../App.vue'),
   },
 ];

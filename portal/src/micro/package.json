@@ -1,0 +1,48 @@
+{
+  "_args": [
+    [
+      "test-micro-web@1.0.5",
+      "/Users/liuhaiping17/Downloads/mirco-web-test/main"
+    ]
+  ],
+  "_from": "test-micro-web@1.0.5",
+  "_id": "test-micro-web@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-J7yKn/SJUqlcmBS7Sc6uTAp9B2YOuX8f1rC/FiEeX+SspWywj29b7olXsk9rLfWgtLvn8Etv35hkTAL1C569Bw==",
+  "_location": "/test-micro-web",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "test-micro-web@1.0.5",
+    "name": "test-micro-web",
+    "escapedName": "test-micro-web",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/test-micro-web/-/test-micro-web-1.0.5.tgz",
+  "_spec": "1.0.5",
+  "_where": "/Users/liuhaiping17/Downloads/mirco-web-test/main",
+  "author": {
+    "name": "yancy"
+  },
+  "description": "微前端测试，谨慎下载",
+  "keywords": [
+    "micro"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "test-micro-web",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/sounmos/micro-web-test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.5"
+}

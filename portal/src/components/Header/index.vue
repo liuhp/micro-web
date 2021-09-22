@@ -1,13 +1,16 @@
 <template>
-  <!-- 用户信息 -->
+  <div>
+    <!-- 用户信息 -->
   <UserInfo />
   <!-- 导航 -->
   <MainNav />
+  </div>
+  
 </template>
 
 <script lang="ts">
-import UserInfo from './userInfo'
-import MainNav from './main-nav'
+import UserInfo from './userInfo.vue'
+import MainNav from './main-nav.vue'
 export default {
   name: 'header',
   components: {

@@ -10,8 +10,8 @@
   <Header/>
   <MainNav/>
   <div class="sub-container">
-    <Loading v-if="loading" />
-    <div v-else id="sub-body">子应用内容</div>
+    <Loading v-show="loadingStatus" />
+    <div v-show="!loadingStatus" id="sub-body">子应用内容</div>
   </div>
   <Footer/>
 </template>
@@ -20,8 +20,7 @@ import Header from './components/Header/userInfo.vue';
 import MainNav from './components/Header/main-nav.vue';
 import Loading from './components/loading.vue';
 import Footer from './components/Footer';
-
-import { ref } from 'vue';
+import { loading } from './store';
 
 export default ({
   components: {
@@ -31,16 +30,15 @@ export default ({
     Footer,
   },
   setup() {
-    const loading = ref(true)
     return {
-      loading,
+      loadingStatus: loading.loadingStatus,
     }
   },
 })
 </script>
 
 <style>
-html, body, #micro_web_main_app{
+html, body, #app, #micro_web_main_app{
   width: 100%;
   height: 100%;
 }
